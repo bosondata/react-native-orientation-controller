@@ -5,7 +5,7 @@
 //
 
 #import "RCTOrientationController.h"
-#import "RCTBridge.h"
+#import <React/RCTBridge.h>
 
 @implementation RCTOrientationController
 
