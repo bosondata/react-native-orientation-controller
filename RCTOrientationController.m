@@ -55,6 +55,9 @@
     [_bridge.eventDispatcher sendDeviceEventWithName:@"orientationDidChange" body:[self getData]];
 }
 
++ (BOOL)requiresMainQueueSetup {
+    return YES;
+}
 
 RCT_EXPORT_MODULE();
 
