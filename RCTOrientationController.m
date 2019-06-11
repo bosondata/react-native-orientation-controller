@@ -55,6 +55,11 @@
     [_bridge.eventDispatcher sendDeviceEventWithName:@"orientationDidChange" body:[self getData]];
 }
 
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
 + (BOOL)requiresMainQueueSetup {
     return YES;
 }
