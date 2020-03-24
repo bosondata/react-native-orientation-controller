@@ -17,6 +17,7 @@
     "type": "git",
     "url": "https://github.com/inProgress-team/react-native-orientation-controller.git"
   },
+  "homepage": "https://github.com/bosondata/react-native-orientation-controller",
   "author": "inProgress team",
   "license": "MIT",
   "rnpm": {
